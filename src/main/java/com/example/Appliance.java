@@ -7,9 +7,9 @@ import javax.swing.plaf.basic.BasicComboBoxRenderer;
 public class Appliance {
     // Attributes
     // TODO: Declare common attributes for electronic devices, such as brand and model and powerUsage.
-    private String brand;
-    private String model;
-    private double powerUsage;
+    private String Brand;
+    private String Model;
+    private double PowerUsage;
     // Constructor
     public Appliance(String brand, String model, int powerUsage) {
         // TODO: Initialize all attributes
@@ -17,14 +17,14 @@ public class Appliance {
 
     // Getters
     // TODO: Implement getters for brand, model, and powerUsage
-    public String getbrand(){
-        return brand;
+    public String getBrand(){
+        return Brand;
     }
-    public String getmodel(){
-        return model;
+    public String getModel(){
+        return Model;
     }
-    public double getpowerUsage(){
-        return powerUsage;
+    public double getPowerUsage(){
+        return PowerUsage;
     }
     // displayInfo Method
     // TODO: Implement a method that returns information about the appliance, including brand, model, and power usage.
